@@ -1,0 +1,32 @@
+.Container-Error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.qcq {
+  font-size: 10rem;
+  color: #ff505f;
+  padding-left: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 288px;
+}
+
+.Oups {
+  font-size: 2rem;
+  color: #ff505f;
+  margin-bottom: 2rem;
+}
+
+.AAcceuilbis {
+  padding-top: 40px;
+  color: black;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #f6f6f6;
+  }
+}

@@ -1,0 +1,25 @@
+img.LOGOsmallWhitebis {
+    padding-bottom: 20px;
+    height: 30px;
+  }
+  
+  footer {
+    width: 100%;
+    position: static;
+    bottom: 0;
+    margin-top: 20px;
+  
+    .container-footer {
+      background-color: black;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding-top: 40px;
+      margin-top: 50px;
+  
+      p {
+        color: white;
+      }
+    }
+  }

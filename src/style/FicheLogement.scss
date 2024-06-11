@@ -1,0 +1,140 @@
+.logement-details-container {
+  padding: 20px;
+
+  .logement-details {
+    width: 90%;
+    margin: 0 auto;
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+      font-weight: 500;
+      color: #ff6060;
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
+
+    .tags span {
+      margin-right: 10px;
+      background-color: #ff6060;
+      color: white;
+      padding: 4px 25px;
+      border-radius: 30px;
+      display: inline-block;
+      font-size: 14px;
+    }
+
+    .host {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+
+      img {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin-right: 10px;
+      }
+    }
+
+    .rating {
+      margin-bottom: 10px;
+    }
+
+    .location {
+      margin-bottom: 10px;
+    }
+
+    .equipments ul {
+      list-style-type: none;
+      padding: 0;
+
+      li {
+        margin-bottom: 5px;
+      }
+    }
+
+    .toggle-button {
+      width: 50%;
+    }
+
+    .expanded-content {
+      width: 50%;
+    }
+
+    .Un .Deux {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .Un {
+      position: relative;
+      bottom: 60px;
+    }
+
+    .Deux {
+      display: flex;
+      flex-direction: row-reverse;
+      padding-top: 10px;
+    }
+
+    .logement-details-haut {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    .Titre {
+      padding-left: 0;
+      display: flex;
+      flex-direction: row;
+    }
+
+    .tags {
+      padding-top: 10px;
+    }
+
+    .slider-container {
+      position: relative;
+      width: 100%;
+      margin-top: 20px;
+
+      .slider-image {
+        width: 100%;
+        height: 415px;
+        object-fit: cover;
+        border-radius: 15px;
+      }
+
+      .prev-button,
+      .next-button {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: transparent;
+        border: none;
+        color: white;
+        font-size: 64px;
+        cursor: pointer;
+        z-index: 1;
+      }
+
+      .prev-button {
+        left: 10px;
+      }
+
+      .next-button {
+        right: 10px;
+      }
+    }
+  }
+}
+
+.star-pink {
+  color: #ff6060;
+}
+
+.star-gray {
+  color: #ccc;
+}
