@@ -31,16 +31,13 @@ function LogementDetails() {
 
   const renderRatingStars = () => {
     const rating = parseInt(logement.rating);
-    const maxRating = 5; // Nombre max d'étoiles
+    const maxRating = 5;
     const stars = [];
 
-   
     for (let i = 0; i < maxRating; i++) {
       if (i < rating) {
-        
         stars.push(<FontAwesomeIcon key={i} icon={solidStar} className="star-pink" />);
       } else {
-       
         stars.push(<FontAwesomeIcon key={i} icon={solidStar} className="star-gray" />);
       }
     }
@@ -95,12 +92,13 @@ function LogementDetails() {
             className="Description"
             textWhenCollapsed="Description"
             textWhenExpanded={logement.description}
-          ></Collapse>
+            
+          />
           <Collapse
             className="Equipement"
-            textWhenCollapsed="équipements"
+            textWhenCollapsed="Équipements"
             textWhenExpanded={logement.equipments.join(", ")}
-          ></Collapse>
+          />
         </div>
       </div>
     </div>
