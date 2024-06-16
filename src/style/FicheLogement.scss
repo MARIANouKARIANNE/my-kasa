@@ -123,13 +123,15 @@
       }
     }
 
-    
-
     .Container-Collapse {
       display: flex;
       justify-content: space-between; 
       gap: 120px; 
       margin-top: 20px; 
+
+      @media screen and (max-width: 800px) {
+        gap: 10px;
+      }
     }
 
     .Collapse {
@@ -190,6 +192,10 @@
       max-height: 1000px; 
     }
   }
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
 }
 
 .star-pink {

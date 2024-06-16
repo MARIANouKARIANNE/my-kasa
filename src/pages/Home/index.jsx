@@ -39,12 +39,12 @@ function Home() {
           ))}
         </div>
       </div>
-      {/* Condition pour afficher les détails du logement sélectionné */}
+      {}
       {selectedLogement && (
         <div>
           <h1>{selectedLogement.title}</h1>
           <p>{selectedLogement.description}</p>
-          {/* Affichez d'autres détails du logement ici */}
+          {}
           <button onClick={handleCloseDetails}>Fermer</button>
         </div>
       )}

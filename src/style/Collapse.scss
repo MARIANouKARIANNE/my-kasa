@@ -4,6 +4,9 @@
   gap: 100px;
   justify-content: space-between;
 }
+body {
+  font-family: 'Montserrat', sans-serif;
+}
 
 .collapse-container {
   display: flex;
@@ -29,12 +32,12 @@
     position: absolute;
     right: 20px;
     top: 50%;
-    transform: translateY(-50%) rotate(-90deg); /* Flèche pointe vers le haut */
+    transform: translateY(-50%) rotate(-90deg); 
     transition: transform 0.3s ease;
   }
 
   &.expanded .Fleche {
-    transform: translateY(-50%) rotate(90deg); /* Flèche pointe vers le bas */
+    transform: translateY(-50%) rotate(90deg); 
   }
 }
 
@@ -53,7 +56,7 @@
 }
 
 .collapse-container.expanded .expanded-content {
-  max-height: none; /* No max height restriction when expanded */
+  max-height: none; 
 }
 
 .IMGFondbis {
@@ -75,6 +78,7 @@ p {
 @media screen and (max-width: 793px) {
   .Container-Collapse {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
+    gap : 10px ;
   }
 }
